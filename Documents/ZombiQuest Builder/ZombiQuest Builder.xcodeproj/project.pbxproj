@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C6687B732D81D2A700B72C0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6687B582D81D2A500B72C0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6687B5F2D81D2A500B72C0E;
+			remoteInfo = "ZombiQuest Builder";
+		};
+		C6687B7D2D81D2A700B72C0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6687B582D81D2A500B72C0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6687B5F2D81D2A500B72C0E;
+			remoteInfo = "ZombiQuest Builder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6687B602D81D2A500B72C0E /* ZombiQuest Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZombiQuest Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6687B722D81D2A700B72C0E /* ZombiQuest BuilderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZombiQuest BuilderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6687B7C2D81D2A700B72C0E /* ZombiQuest BuilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZombiQuest BuilderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C6687B622D81D2A500B72C0E /* ZombiQuest Builder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ZombiQuest Builder";
+			sourceTree = "<group>";
+		};
+		C6687B752D81D2A700B72C0E /* ZombiQuest BuilderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ZombiQuest BuilderTests";
+			sourceTree = "<group>";
+		};
+		C6687B7F2D81D2A700B72C0E /* ZombiQuest BuilderUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ZombiQuest BuilderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6687B5D2D81D2A500B72C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6687B6F2D81D2A700B72C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6687B792D81D2A700B72C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6687B572D81D2A500B72C0E = {
+			isa = PBXGroup;
+			children = (
+				C6687B622D81D2A500B72C0E /* ZombiQuest Builder */,
+				C6687B752D81D2A700B72C0E /* ZombiQuest BuilderTests */,
+				C6687B7F2D81D2A700B72C0E /* ZombiQuest BuilderUITests */,
+				C6687B612D81D2A500B72C0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6687B612D81D2A500B72C0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6687B602D81D2A500B72C0E /* ZombiQuest Builder.app */,
+				C6687B722D81D2A700B72C0E /* ZombiQuest BuilderTests.xctest */,
+				C6687B7C2D81D2A700B72C0E /* ZombiQuest BuilderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6687B5F2D81D2A500B72C0E /* ZombiQuest Builder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6687B862D81D2A700B72C0E /* Build configuration list for PBXNativeTarget "ZombiQuest Builder" */;
+			buildPhases = (
+				C6687B5C2D81D2A500B72C0E /* Sources */,
+				C6687B5D2D81D2A500B72C0E /* Frameworks */,
+				C6687B5E2D81D2A500B72C0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C6687B622D81D2A500B72C0E /* ZombiQuest Builder */,
+			);
+			name = "ZombiQuest Builder";
+			packageProductDependencies = (
+			);
+			productName = "ZombiQuest Builder";
+			productReference = C6687B602D81D2A500B72C0E /* ZombiQuest Builder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6687B712D81D2A700B72C0E /* ZombiQuest BuilderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6687B892D81D2A700B72C0E /* Build configuration list for PBXNativeTarget "ZombiQuest BuilderTests" */;
+			buildPhases = (
+				C6687B6E2D81D2A700B72C0E /* Sources */,
+				C6687B6F2D81D2A700B72C0E /* Frameworks */,
+				C6687B702D81D2A700B72C0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6687B742D81D2A700B72C0E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C6687B752D81D2A700B72C0E /* ZombiQuest BuilderTests */,
+			);
+			name = "ZombiQuest BuilderTests";
+			packageProductDependencies = (
+			);
+			productName = "ZombiQuest BuilderTests";
+			productReference = C6687B722D81D2A700B72C0E /* ZombiQuest BuilderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6687B7B2D81D2A700B72C0E /* ZombiQuest BuilderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6687B8C2D81D2A700B72C0E /* Build configuration list for PBXNativeTarget "ZombiQuest BuilderUITests" */;
+			buildPhases = (
+				C6687B782D81D2A700B72C0E /* Sources */,
+				C6687B792D81D2A700B72C0E /* Frameworks */,
+				C6687B7A2D81D2A700B72C0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6687B7E2D81D2A700B72C0E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C6687B7F2D81D2A700B72C0E /* ZombiQuest BuilderUITests */,
+			);
+			name = "ZombiQuest BuilderUITests";
+			packageProductDependencies = (
+			);
+			productName = "ZombiQuest BuilderUITests";
+			productReference = C6687B7C2D81D2A700B72C0E /* ZombiQuest BuilderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6687B582D81D2A500B72C0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C6687B5F2D81D2A500B72C0E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C6687B712D81D2A700B72C0E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C6687B5F2D81D2A500B72C0E;
+					};
+					C6687B7B2D81D2A700B72C0E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C6687B5F2D81D2A500B72C0E;
+					};
+				};
+			};
+			buildConfigurationList = C6687B5B2D81D2A500B72C0E /* Build configuration list for PBXProject "ZombiQuest Builder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6687B572D81D2A500B72C0E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C6687B612D81D2A500B72C0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6687B5F2D81D2A500B72C0E /* ZombiQuest Builder */,
+				C6687B712D81D2A700B72C0E /* ZombiQuest BuilderTests */,
+				C6687B7B2D81D2A700B72C0E /* ZombiQuest BuilderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6687B5E2D81D2A500B72C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6687B702D81D2A700B72C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6687B7A2D81D2A700B72C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6687B5C2D81D2A500B72C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6687B6E2D81D2A700B72C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6687B782D81D2A700B72C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6687B742D81D2A700B72C0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6687B5F2D81D2A500B72C0E /* ZombiQuest Builder */;
+			targetProxy = C6687B732D81D2A700B72C0E /* PBXContainerItemProxy */;
+		};
+		C6687B7E2D81D2A700B72C0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6687B5F2D81D2A500B72C0E /* ZombiQuest Builder */;
+			targetProxy = C6687B7D2D81D2A700B72C0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C6687B842D81D2A700B72C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6687B852D81D2A700B72C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6687B872D81D2A700B72C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZombiQuest Builder/Preview Content\"";
+				DEVELOPMENT_TEAM = QWLAHB5M4Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ZombiQuest-Builder-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nashclinton.ZombiQuest-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6687B882D81D2A700B72C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZombiQuest Builder/Preview Content\"";
+				DEVELOPMENT_TEAM = QWLAHB5M4Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ZombiQuest-Builder-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nashclinton.ZombiQuest-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6687B8A2D81D2A700B72C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nashclinton.ZombiQuest-BuilderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZombiQuest Builder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZombiQuest Builder";
+			};
+			name = Debug;
+		};
+		C6687B8B2D81D2A700B72C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nashclinton.ZombiQuest-BuilderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZombiQuest Builder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZombiQuest Builder";
+			};
+			name = Release;
+		};
+		C6687B8D2D81D2A700B72C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nashclinton.ZombiQuest-BuilderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ZombiQuest Builder";
+			};
+			name = Debug;
+		};
+		C6687B8E2D81D2A700B72C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nashclinton.ZombiQuest-BuilderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ZombiQuest Builder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6687B5B2D81D2A500B72C0E /* Build configuration list for PBXProject "ZombiQuest Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6687B842D81D2A700B72C0E /* Debug */,
+				C6687B852D81D2A700B72C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6687B862D81D2A700B72C0E /* Build configuration list for PBXNativeTarget "ZombiQuest Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6687B872D81D2A700B72C0E /* Debug */,
+				C6687B882D81D2A700B72C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6687B892D81D2A700B72C0E /* Build configuration list for PBXNativeTarget "ZombiQuest BuilderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6687B8A2D81D2A700B72C0E /* Debug */,
+				C6687B8B2D81D2A700B72C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6687B8C2D81D2A700B72C0E /* Build configuration list for PBXNativeTarget "ZombiQuest BuilderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6687B8D2D81D2A700B72C0E /* Debug */,
+				C6687B8E2D81D2A700B72C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6687B582D81D2A500B72C0E /* Project object */;
+}
